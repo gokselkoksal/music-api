@@ -1,6 +1,10 @@
-public struct MusicAPI {
-    public private(set) var text = "Hello, World!"
+import Combine
 
-    public init() {
+public struct MusicAPI {
+    
+    public var getMostPlayed: (MediaKind, CountryCode, MusicRequest.PageSize) -> AnyPublisher<MusicResponse, Error>
+    
+    public init(getMostPlayed: @escaping (MediaKind, CountryCode, MusicRequest.PageSize) -> AnyPublisher<MusicResponse, Error>) {
+        self.getMostPlayed = getMostPlayed
     }
 }
