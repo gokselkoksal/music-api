@@ -25,9 +25,9 @@ final class MusicResponseTests: XCTestCase {
         XCTAssertEqual(response.results.count, 10)
     }
     
-    private func loadResponse(_ fileName: String) throws -> MusicResponse {
-        let url = try XCTUnwrap(Bundle.module.url(forResource: fileName, withExtension: "json"))
-        let data = try XCTUnwrap(Data(contentsOf: url))
+    private func loadResponse(_ fileName: String, file: StaticString = #file, line: UInt = #line) throws -> MusicResponse {
+        let url = try XCTUnwrap(Bundle.module.url(forResource: fileName, withExtension: "json"), file: file, line: line)
+        let data = try Data(contentsOf: url)
         return try decoder.decode(MusicResponse.self, from: data)
     }
 }
