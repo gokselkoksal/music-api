@@ -16,13 +16,13 @@ public struct MusicResponse: Decodable {
     }
     
     public let title: String
-    public let copyright: String
-    public let country: String
+    public let copyright: String?
+    public let country: CountryCode
     public let icon: URL
     public let updatedAt: Date
     public let results: [Media]
     
-    public init(title: String, copyright: String, country: String, icon: URL, updatedAt: Date, results: [Media]) {
+    public init(title: String, copyright: String?, country: CountryCode, icon: URL, updatedAt: Date, results: [Media]) {
         self.title = title
         self.copyright = copyright
         self.country = country
@@ -35,8 +35,8 @@ public struct MusicResponse: Decodable {
         let rootContainer = try decoder.container(keyedBy: RootCodingKeys.self)
         let container = try rootContainer.nestedContainer(keyedBy: FeedCodingKeys.self, forKey: .feed)
         self.title = try container.decode(String.self, forKey: .title)
-        self.copyright = try container.decode(String.self, forKey: .copyright)
-        self.country = try container.decode(String.self, forKey: .country)
+        self.copyright = try container.decodeIfPresent(String.self, forKey: .copyright)
+        self.country = try container.decode(CountryCode.self, forKey: .country)
         self.icon = try container.decode(URL.self, forKey: .icon)
         self.updatedAt = try container.decodeDate(using: Self.dateFormatter, forKey: .updatedAt)
         self.results = try container.decode([Media].self, forKey: .results)
