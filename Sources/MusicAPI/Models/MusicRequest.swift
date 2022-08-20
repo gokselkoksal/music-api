@@ -1,18 +1,5 @@
 import Foundation
 
-public struct CountryCode: ExpressibleByStringLiteral {
-    
-    public let rawValue: String
-    
-    public init(_ rawValue: String) {
-        self.rawValue = rawValue
-    }
-    
-    public init(stringLiteral value: StringLiteralType) {
-        self.init(value)
-    }
-}
-
 public enum MediaKind: String, Decodable {
     case albums = "albums"
     case musicVideos = "music-videos"
@@ -44,7 +31,7 @@ public struct MusicRequest {
     }
 }
 
-public extension MusicRequest {
+extension MusicRequest {
     var url: URL {
         var url = URL(string: "https://rss.applemarketingtools.com/api/v2/")!
         url.appendPathComponent(country.rawValue)
