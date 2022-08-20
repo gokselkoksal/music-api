@@ -4,14 +4,14 @@ import Combine
 
 final class MusicProviderTests: XCTestCase {
     
-    func testExample() throws {
-        // Given
+    func test_apple_songs() throws {
+        // Given a music provider
         let provider = MusicProvider.apple()
         var didFinish: Bool = false
         var error: Error?
         var response: MusicResponse?
         
-        // When
+        // When top songs are requested
         let exp = expectation(description: "should receive response")
         let pageSize = MusicRequest.PageSize.small
         let request = MusicRequest(country: "tr", kind: .songs, pageSize: pageSize)
@@ -28,7 +28,7 @@ final class MusicProviderTests: XCTestCase {
         }
         wait(for: [exp], timeout: 3.0)
         
-        // Then
+        // Then expect to receive a response
         XCTAssertTrue(didFinish)
         XCTAssertNil(error)
         XCTAssertNotNil(response)
