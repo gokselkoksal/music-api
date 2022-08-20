@@ -1,0 +1,252 @@
+{
+  "feed": {
+    "title": "Top Songs",
+    "id": "https://rss.applemarketingtools.com/api/v2/tr/music/most-played/10/songs.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/tr/music/most-played/10/songs.json"
+      }
+    ],
+    "copyright": "Copyright © 2022 Apple Inc. All rights reserved.",
+    "country": "tr",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sat, 20 Aug 2022 18:33:32 +0000",
+    "results": [
+      {
+        "artistName": "Zeynep Bastık",
+        "id": "1635429608",
+        "name": "Ara",
+        "releaseDate": "2022-07-29",
+        "kind": "songs",
+        "artistId": "935766494",
+        "artistUrl": "https://music.apple.com/tr/artist/zeynep-bast%C4%B1k/935766494",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/a9/11/2a/a9112afe-d433-a622-a8e4-81d5c83f7c83/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/tr/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/ara/1635429603?i=1635429608"
+      },
+      {
+        "artistName": "Ezhel",
+        "id": "1633241874",
+        "name": "Nerdesin",
+        "releaseDate": "2022-07-21",
+        "kind": "songs",
+        "artistId": "1015463016",
+        "artistUrl": "https://music.apple.com/tr/artist/ezhel/1015463016",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c7/dc/e7/c7dce77d-d0ac-98ff-04dd-06d9a56c79d9/196925338776.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/nerdesin/1633241735?i=1633241874"
+      },
+      {
+        "artistName": "KÖFN",
+        "id": "1611414316",
+        "name": "Bi' Tek Ben Anlarım",
+        "releaseDate": "2022-03-18",
+        "kind": "songs",
+        "artistId": "1478586805",
+        "artistUrl": "https://music.apple.com/tr/artist/k%C3%B6fn/1478586805",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music116/v4/49/0b/97/490b976f-3322-3aec-eacc-e3876727a112/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/tr/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/bi-tek-ben-anlar%C4%B1m/1611414310?i=1611414316"
+      },
+      {
+        "artistName": "Sefo & CAPO",
+        "id": "1627532866",
+        "name": "ISABELLE",
+        "releaseDate": "2022-06-08",
+        "kind": "songs",
+        "artistId": "1629059948",
+        "artistUrl": "https://music.apple.com/tr/artist/sefo/1629059948",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/aa/ea/58/aaea5866-1f39-7833-63aa-f2b2cbc01c2b/196925143509.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/isabelle/1627532403?i=1627532866"
+      },
+      {
+        "artistName": "Sefo",
+        "id": "1620953272",
+        "name": "Tutsak",
+        "releaseDate": "2022-04-29",
+        "kind": "songs",
+        "artistId": "1360733410",
+        "artistUrl": "https://music.apple.com/tr/artist/sefo/1360733410",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music116/v4/35/d6/ae/35d6ae09-e04f-ea79-7a17-f1332197f16f/196626871510.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/tutsak/1620953264?i=1620953272"
+      },
+      {
+        "artistName": "Madrigal",
+        "id": "1561011079",
+        "name": "Dip",
+        "releaseDate": "2021-04-09",
+        "kind": "songs",
+        "artistId": "1244926942",
+        "artistUrl": "https://music.apple.com/tr/artist/madrigal/1244926942",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/32/49/f6/3249f6d2-4c92-a911-27d8-e094456bd94b/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          },
+          {
+            "genreId": "20",
+            "name": "Alternative",
+            "url": "https://itunes.apple.com/tr/genre/id20"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/dip/1561010885?i=1561011079"
+      },
+      {
+        "artistName": "Güneş",
+        "id": "1621475560",
+        "name": "Suçlarımdan Biri",
+        "releaseDate": "2022-06-03",
+        "kind": "songs",
+        "artistId": "1497144792",
+        "artistUrl": "https://music.apple.com/tr/artist/g%C3%BCne%C5%9F/1497144792",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/22/1d/69/221d6938-9826-8b96-24a2-b4fce0c2fcf5/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/su%C3%A7lar%C4%B1mdan-biri/1621475271?i=1621475560"
+      },
+      {
+        "artistName": "Sefo & Jako",
+        "id": "1640055098",
+        "name": "kördüğüm",
+        "releaseDate": "2022-08-19",
+        "kind": "songs",
+        "artistId": "1360733410",
+        "artistUrl": "https://music.apple.com/tr/artist/sefo/1360733410",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/c8/06/be/c806be05-6df5-2b3a-c181-2e868a16603b/196925568708.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/k%C3%B6rd%C3%BC%C4%9F%C3%BCm/1640055083?i=1640055098"
+      },
+      {
+        "artistName": "UZI",
+        "id": "1613699099",
+        "name": "ARASAN DA",
+        "releaseDate": "2022-03-18",
+        "kind": "songs",
+        "artistId": "1448922098",
+        "artistUrl": "https://music.apple.com/tr/artist/uzi/1448922098",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Music116/v4/94/57/16/94571617-ddcb-5002-9163-f50e0280e3cd/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/arasan-da/1613699087?i=1613699099"
+      },
+      {
+        "artistName": "Lvbel C5 & Eftalya Yağcı",
+        "id": "1638369255",
+        "name": "Sevmiş Gibi",
+        "releaseDate": "2022-08-12",
+        "kind": "songs",
+        "artistId": "1476999072",
+        "artistUrl": "https://music.apple.com/tr/artist/lvbel-c5/1476999072",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music122/v4/91/11/1a/91111ad3-028b-f017-18db-b98544106420/cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/tr/genre/id34"
+          },
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/tr/genre/id18"
+          }
+        ],
+        "url": "https://music.apple.com/tr/album/sevmi%C5%9F-gibi/1638369246?i=1638369255"
+      }
+    ]
+  }
+}

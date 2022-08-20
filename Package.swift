@@ -29,6 +29,12 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "MusicAPITests",
-            dependencies: ["MusicAPI"]),
+            dependencies: ["MusicAPI"],
+            resources: [
+                // Copy Tests/ExampleTests/Resources directories as-is.
+                // Use to retain directory structure.
+                // Will be at top level in bundle.
+                .process("Resources")
+            ]),
     ]
 )
