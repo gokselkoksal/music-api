@@ -33,12 +33,12 @@ public struct MusicRequest {
         case large = 50
     }
     
-    public var countryCode: CountryCode
+    public var country: CountryCode
     public var kind: MediaKind
     public var pageSize: PageSize
     
-    public init(countryCode: CountryCode, kind: MediaKind, pageSize: MusicRequest.PageSize) {
-        self.countryCode = countryCode
+    public init(country: CountryCode, kind: MediaKind, pageSize: MusicRequest.PageSize) {
+        self.country = country
         self.kind = kind
         self.pageSize = pageSize
     }
@@ -47,7 +47,7 @@ public struct MusicRequest {
 public extension MusicRequest {
     var url: URL {
         var url = URL(string: "https://rss.applemarketingtools.com/api/v2/")!
-        url.appendPathComponent(countryCode.rawValue)
+        url.appendPathComponent(country.rawValue)
         url.appendPathComponent("music")
         url.appendPathComponent("most-played")
         url.appendPathComponent(String(pageSize.rawValue))

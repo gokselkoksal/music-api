@@ -1,48 +1,5 @@
 import Foundation
 
-public struct MusicResponse {
-    
-    private enum RootCodingKeys: String, CodingKey {
-        case feed
-    }
-    
-    private enum FeedCodingKeys: String, CodingKey {
-        case title
-        case copyright
-        case country
-        case icon
-        case updatedAt = "updated"
-        case results
-    }
-    
-    public let title: String
-    public let copyright: String
-    public let country: String
-    public let icon: URL
-    public let updatedAt: Date
-    public let results: [Media]
-    
-    public init(title: String, copyright: String, country: String, icon: URL, updatedAt: Date, results: [Media]) {
-        self.title = title
-        self.copyright = copyright
-        self.country = country
-        self.icon = icon
-        self.updatedAt = updatedAt
-        self.results = results
-    }
-    
-    public init(from decoder: Decoder) throws {
-        let rootContainer = try decoder.container(keyedBy: RootCodingKeys.self)
-        let container = try rootContainer.nestedContainer(keyedBy: FeedCodingKeys.self, forKey: .feed)
-        self.title = try container.decode(String.self, forKey: .title)
-        self.copyright = try container.decode(String.self, forKey: .copyright)
-        self.country = try container.decode(String.self, forKey: .country)
-        self.icon = try container.decode(URL.self, forKey: .icon)
-        self.updatedAt = try container.decode(Date.self, forKey: .updatedAt)
-        self.results = try container.decode([Media].self, forKey: .results)
-    }
-}
-
 public struct Media: Decodable {
     
     private enum CodingKeys: String, CodingKey {
@@ -81,6 +38,29 @@ public struct Media: Decodable {
         self.genres = genres
         self.url = url
     }
+    
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.id = try container.decode(String.self, forKey: .id)
+        self.artistName = try container.decodeIfPresent(String.self, forKey: .artistName)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.releaseDate = try container.decodeDate(using: Self.dateFormatter, forKey: .releaseDate)
+        self.kind = try container.decode(MediaKind.self, forKey: .kind)
+        self.artistID = try container.decode(String.self, forKey: .artistID)
+        self.artistURL = try container.decode(URL.self, forKey: .artistURL)
+        self.artworkURL = try container.decode(URL.self, forKey: .artworkURL)
+        self.genres = try container.decode([Genre].self, forKey: .genres)
+        self.url = try container.decode(URL.self, forKey: .url)
+    }
+    
+    private static let dateFormatter: DateFormatter = {
+        let formatter = DateFormatter()
+        // 2022-07-29
+        formatter.dateFormat = "yyyy-MM-dd"
+        formatter.timeZone = .init(secondsFromGMT: 0)
+        formatter.locale = .init(identifier: "en")
+        return formatter
+    }()
 }
 
 public struct Genre: Decodable {
