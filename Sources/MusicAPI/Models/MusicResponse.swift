@@ -7,6 +7,7 @@ public struct MusicResponse: Decodable {
     }
     
     private enum FeedCodingKeys: String, CodingKey {
+        case id
         case title
         case copyright
         case country
@@ -15,6 +16,7 @@ public struct MusicResponse: Decodable {
         case results
     }
     
+    public let id: String
     public let title: String
     public let copyright: String?
     public let country: CountryCode
@@ -22,7 +24,8 @@ public struct MusicResponse: Decodable {
     public let updatedAt: Date
     public let results: [Media]
     
-    public init(title: String, copyright: String?, country: CountryCode, icon: URL, updatedAt: Date, results: [Media]) {
+    public init(id: String, title: String, copyright: String?, country: CountryCode, icon: URL, updatedAt: Date, results: [Media]) {
+        self.id = id
         self.title = title
         self.copyright = copyright
         self.country = country
@@ -34,6 +37,7 @@ public struct MusicResponse: Decodable {
     public init(from decoder: Decoder) throws {
         let rootContainer = try decoder.container(keyedBy: RootCodingKeys.self)
         let container = try rootContainer.nestedContainer(keyedBy: FeedCodingKeys.self, forKey: .feed)
+        self.id = try container.decode(String.self, forKey: .id)
         self.title = try container.decode(String.self, forKey: .title)
         self.copyright = try container.decodeIfPresent(String.self, forKey: .copyright)
         self.country = try container.decode(CountryCode.self, forKey: .country)

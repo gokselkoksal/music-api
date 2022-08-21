@@ -1,0 +1,190 @@
+{
+  "feed": {
+    "title": "Top Videos",
+    "id": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/music-videos.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/music-videos.json"
+      }
+    ],
+    "copyright": "Copyright © 2022 Apple Inc. All rights reserved.",
+    "country": "us",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sun, 21 Aug 2022 01:52:55 +0000",
+    "results": [
+      {
+        "artistName": "Peezy",
+        "id": "1634841222",
+        "name": "2 Million Up",
+        "releaseDate": "2022-07-15",
+        "kind": "music-videos",
+        "artistId": "1433819455",
+        "artistUrl": "https://music.apple.com/us/artist/peezy/1433819455",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/c6/a9/e5/c6a9e520-e659-8a8c-e04a-33f7713abb51/194690903021_cover.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/2-million-up/1634841222"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420321",
+        "name": "What Happened To Virgil",
+        "releaseDate": "2022-04-11",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video112/v4/82/18/74/8218749e-ff3e-41e9-905c-911a9d95c1ea/1965892677190132.jpg/100x69mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/what-happened-to-virgil/1631420321"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420329",
+        "name": "AHHH HA",
+        "releaseDate": "2022-02-21",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video122/v4/12/14/b4/1214b471-00f4-d440-77bf-3c4b24aab069/1965892677190133.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/ahhh-ha/1631420329"
+      },
+      {
+        "artistName": "Hotboii",
+        "id": "1636071411",
+        "name": "WTF",
+        "releaseDate": "2022-07-29",
+        "kind": "music-videos",
+        "artistId": "1460325216",
+        "artistUrl": "https://music.apple.com/us/artist/hotboii/1460325216",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video122/v4/ca/89/7d/ca897dd4-dff4-ae5b-05af-1a74bb9fd95b/22UMGIM64967.crop.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/wtf/1636071411"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420341",
+        "name": "Golden Child",
+        "releaseDate": "2022-03-10",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Video112/v4/88/16/2a/88162ae5-2241-1339-e0b3-5a235a6ca5eb/1965892677190134.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/golden-child/1631420341"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420343",
+        "name": "Barbarian",
+        "releaseDate": "2022-03-14",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video122/v4/9a/56/29/9a5629b0-fbfa-18d2-9577-a934e001f3f3/1965892677190136.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/barbarian/1631420343"
+      },
+      {
+        "artistName": "Hotboii & Kodak Black",
+        "id": "1636071423",
+        "name": "Live Life Die Faster",
+        "releaseDate": "2022-07-29",
+        "kind": "music-videos",
+        "artistId": "1460325216",
+        "artistUrl": "https://music.apple.com/us/artist/hotboii/1460325216",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Video112/v4/18/8c/97/188c97e7-01b5-a4c9-409e-6d44a0d9e291/22UMGIM75824.crop.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/live-life-die-faster/1636071423"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420342",
+        "name": "Petty Too (feat. Future)",
+        "releaseDate": "2022-03-21",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Video112/v4/55/ad/43/55ad437b-6f67-2e1a-f6da-93b8766fd3f1/1965892677190135.jpg/100x56mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/petty-too-feat-future/1631420342"
+      },
+      {
+        "artistName": "Lil Durk",
+        "id": "1631420496",
+        "name": "Blocklist",
+        "releaseDate": "2022-04-14",
+        "kind": "music-videos",
+        "artistId": "541282483",
+        "artistUrl": "https://music.apple.com/us/artist/lil-durk/541282483",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video112/v4/ac/9a/8f/ac9a8fc1-9cb0-8985-e9e8-4c0bc471c8c0/1965892677190137.jpg/100x42mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/blocklist/1631420496"
+      },
+      {
+        "artistName": "Hotboii",
+        "id": "1636071416",
+        "name": "Tell Me Bout It",
+        "releaseDate": "2022-07-29",
+        "kind": "music-videos",
+        "artistId": "1460325216",
+        "artistUrl": "https://music.apple.com/us/artist/hotboii/1460325216",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Video122/v4/0f/a4/2b/0fa42b45-df9e-8a90-535a-de8d4fe29311/22UMGIM81350.crop.jpg/100x112mv.jpg",
+        "genres": [
+          {
+            "name": "Hip-Hop/Rap"
+          }
+        ],
+        "url": "https://music.apple.com/us/music-video/tell-me-bout-it/1636071416"
+      }
+    ]
+  }
+}

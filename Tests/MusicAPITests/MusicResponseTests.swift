@@ -15,8 +15,9 @@ final class MusicResponseTests: XCTestCase {
     }()
     
     func test_songs() throws {
-        let response = try loadResponse("turkey-top-10-songs")
+        let response: MusicResponse = try TestResourceLoader.load(from: "tr-top10-songs")
         
+        XCTAssertEqual(response.id, "https://rss.applemarketingtools.com/api/v2/tr/music/most-played/10/songs.json")
         XCTAssertEqual(response.title, "Top Songs")
         XCTAssertEqual(response.copyright, "Copyright © 2022 Apple Inc. All rights reserved.")
         XCTAssertEqual(response.country, "tr")
@@ -25,9 +26,39 @@ final class MusicResponseTests: XCTestCase {
         XCTAssertEqual(response.results.count, 10)
     }
     
-    private func loadResponse(_ fileName: String, file: StaticString = #file, line: UInt = #line) throws -> MusicResponse {
-        let url = try XCTUnwrap(Bundle.module.url(forResource: fileName, withExtension: "json"), file: file, line: line)
-        let data = try Data(contentsOf: url)
-        return try decoder.decode(MusicResponse.self, from: data)
+    func test_music_videos() throws {
+        let response: MusicResponse = try TestResourceLoader.load(from: "us-top10-music-videos")
+        
+        XCTAssertEqual(response.id, "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/music-videos.json")
+        XCTAssertEqual(response.title, "Top Videos")
+        XCTAssertEqual(response.copyright, "Copyright © 2022 Apple Inc. All rights reserved.")
+        XCTAssertEqual(response.country, "us")
+        XCTAssertEqual(response.icon.absoluteString, "https://www.apple.com/favicon.ico")
+        XCTAssertEqual(dateFormatter.string(from: response.updatedAt), "Sun, 21 Aug 2022 01:52:55 +0000")
+        XCTAssertEqual(response.results.count, 10)
+    }
+    
+    func test_albums() throws {
+        let response: MusicResponse = try TestResourceLoader.load(from: "gb-top10-albums")
+        
+        XCTAssertEqual(response.id, "https://rss.applemarketingtools.com/api/v2/gb/music/most-played/10/albums.json")
+        XCTAssertEqual(response.title, "Top Albums")
+        XCTAssertEqual(response.copyright, "Copyright © 2022 Apple Inc. All rights reserved.")
+        XCTAssertEqual(response.country, "gb")
+        XCTAssertEqual(response.icon.absoluteString, "https://www.apple.com/favicon.ico")
+        XCTAssertEqual(dateFormatter.string(from: response.updatedAt), "Sun, 21 Aug 2022 01:58:25 +0000")
+        XCTAssertEqual(response.results.count, 10)
+    }
+    
+    func test_playlists() throws {
+        let response: MusicResponse = try TestResourceLoader.load(from: "ie-top10-playlists")
+        
+        XCTAssertEqual(response.id, "https://rss.applemarketingtools.com/api/v2/ie/music/most-played/10/playlists.json")
+        XCTAssertEqual(response.title, "Top Playlists")
+        XCTAssertEqual(response.copyright, "Copyright © 2022 Apple Inc. All rights reserved.")
+        XCTAssertEqual(response.country, "ie")
+        XCTAssertEqual(response.icon.absoluteString, "https://www.apple.com/favicon.ico")
+        XCTAssertEqual(dateFormatter.string(from: response.updatedAt), "Sun, 21 Aug 2022 02:00:51 +0000")
+        XCTAssertEqual(response.results.count, 10)
     }
 }

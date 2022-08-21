@@ -1,0 +1,23 @@
+{
+  "artistName": "Zeynep Bastık",
+  "id": "1635429608",
+  "name": "Ara",
+  "releaseDate": "2022-07-29",
+  "kind": "songs",
+  "artistId": "935766494",
+  "artistUrl": "https://music.apple.com/tr/artist/zeynep-bast%C4%B1k/935766494",
+  "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Music122/v4/a9/11/2a/a9112afe-d433-a622-a8e4-81d5c83f7c83/cover.jpg/100x100bb.jpg",
+  "genres": [
+    {
+      "genreId": "14",
+      "name": "Pop",
+      "url": "https://itunes.apple.com/tr/genre/id14"
+    },
+    {
+      "genreId": "34",
+      "name": "Music",
+      "url": "https://itunes.apple.com/tr/genre/id34"
+    }
+  ],
+  "url": "https://music.apple.com/tr/album/ara/1635429603?i=1635429608"
+}

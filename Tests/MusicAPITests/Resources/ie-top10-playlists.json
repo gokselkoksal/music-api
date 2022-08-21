@@ -1,0 +1,101 @@
+{
+  "feed": {
+    "title": "Top Playlists",
+    "id": "https://rss.applemarketingtools.com/api/v2/ie/music/most-played/10/playlists.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/ie/music/most-played/10/playlists.json"
+      }
+    ],
+    "copyright": "Copyright © 2022 Apple Inc. All rights reserved.",
+    "country": "ie",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sun, 21 Aug 2022 02:00:51 +0000",
+    "results": [
+      {
+        "id": "pl.f4d106fed2bd41149aaacabb233eb5eb",
+        "name": "Today’s Hits",
+        "kind": "playlists",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/8f/34/51/8f3451e1-57f9-f445-f98e-334e42c849b9/44355f58-e124-44a9-afa4-988bc60f313b.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/todays-hits/pl.f4d106fed2bd41149aaacabb233eb5eb"
+      },
+      {
+        "id": "pl.34c6bf42a176492abb918edb57b565e9",
+        "name": "Songs of the Summer",
+        "kind": "playlists",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Features125/v4/54/14/ae/5414aea9-0dd0-a686-a32f-e3e174bddfae/U0MtTVMtV1ctU29uZ3Nfb2ZfdGhlX1N1bW1lci1BREFNX0lEPTEwMzU4MjE1NzIucG5n.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/songs-of-the-summer/pl.34c6bf42a176492abb918edb57b565e9"
+      },
+      {
+        "id": "pl.522581bf8c264bafa742e75df9772078",
+        "name": "Acoustic Hits",
+        "kind": "playlists",
+        "artworkUrl100": "https://is5-ssl.mzstatic.com/image/thumb/Features115/v4/61/f7/74/61f774a0-09a3-3958-66bf-bd8b5e916fbf/U0MtTVMtV1ctQWNvdXN0aWNfSGl0cy1BREFNX0lEPTExNjIwODg4MDkucG5n.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/acoustic-hits/pl.522581bf8c264bafa742e75df9772078"
+      },
+      {
+        "id": "pl.6bf4415b83ce4f3789614ac4c3675740",
+        "name": "danceXL",
+        "kind": "playlists",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/d0/14/9b/d0149beb-a8f0-141d-23c2-92a2450208ed/a1a35c30-e426-4bf7-8467-1649d188d991.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/dancexl/pl.6bf4415b83ce4f3789614ac4c3675740"
+      },
+      {
+        "id": "pl.0b42b4ce31584d949e6a0603f3777e6e",
+        "name": "Coldplay Essentials",
+        "kind": "playlists",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Features115/v4/6c/e0/a1/6ce0a1e1-be41-cb15-ed37-0fd1afcb60c2/pr_source.png/100x100SC.FPESS02.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/coldplay-essentials/pl.0b42b4ce31584d949e6a0603f3777e6e"
+      },
+      {
+        "id": "pl.5ee8333dbe944d9f9151e97d92d1ead9",
+        "name": "A-List Pop",
+        "kind": "playlists",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/58/79/c3/5879c3df-6136-4d9f-1154-eded5e65bd04/a16b69a8-e4b0-4a15-ac61-ea1d41b3b80c.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/a-list-pop/pl.5ee8333dbe944d9f9151e97d92d1ead9"
+      },
+      {
+        "id": "pl.10fc76a3edc14e759deb60535854e339",
+        "name": "Feeling Good",
+        "kind": "playlists",
+        "artworkUrl100": "https://is3-ssl.mzstatic.com/image/thumb/Features125/v4/e4/2b/85/e42b856c-37d1-57ba-871d-d074aaf916b3/U0MtTVMtVEVSLUZlZWxHb29kX0ZlZWxpbmdHb29kLUFEQU1fSUQ9MTI4ODA3MDMyMi5wbmc.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/feeling-good/pl.10fc76a3edc14e759deb60535854e339"
+      },
+      {
+        "id": "pl.a93fb3bff1354bb5bba69b2ee4562cd9",
+        "name": "Dermot Kennedy Essentials",
+        "kind": "playlists",
+        "artworkUrl100": "https://is4-ssl.mzstatic.com/image/thumb/Music112/v4/9a/57/42/9a57425e-e216-ea20-fb2e-f2dc5c783917/pr_source.png/100x100SC.FPESS02.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/dermot-kennedy-essentials/pl.a93fb3bff1354bb5bba69b2ee4562cd9"
+      },
+      {
+        "id": "pl.ad0ee1557e3e4feba314fd70f7982766",
+        "name": "Pure Workout",
+        "kind": "playlists",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/4c/2c/c9/4c2cc954-3c4d-3c10-62c2-852403ed1806/U0MtTVMtV1ctUHVyZV9Xb3Jrb3V0LUFEQU1fSUQ9MTI4OTY5MTEzOC5wbmc.png/100x100SC.DN01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/pure-workout/pl.ad0ee1557e3e4feba314fd70f7982766"
+      },
+      {
+        "id": "pl.af4d982795c6472ea48579eb147cd726",
+        "name": "’80s Hits Essentials",
+        "kind": "playlists",
+        "artworkUrl100": "https://is2-ssl.mzstatic.com/image/thumb/Features126/v4/ca/3a/1d/ca3a1db1-ecbd-0616-fed5-79f8b1872e92/U0MtTVMtV1ctODBzX0RhbmNlX1BhcnR5X0Vzc2VudGlhbHMtQURBTV9JRD05NzY0NDg3ODIucG5n.png/100x100SC.CAHGOY01.jpg?l=en-GB",
+        "genres": [],
+        "url": "https://music.apple.com/ie/playlist/80s-hits-essentials/pl.af4d982795c6472ea48579eb147cd726"
+      }
+    ]
+  }
+}
