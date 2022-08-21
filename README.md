@@ -1,4 +1,4 @@
-# music-api
+# Sample Music API
 
 Simple music API for sample apps.
 
