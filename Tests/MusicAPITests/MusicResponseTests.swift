@@ -26,7 +26,7 @@ final class MusicResponseTests: XCTestCase {
         XCTAssertEqual(response.results.count, 10)
     }
     
-    func test_music_videos() throws {
+    func test_musicVideos() throws {
         let response: MusicResponse = try TestResourceLoader.load(from: "us-top10-music-videos")
         
         XCTAssertEqual(response.id, "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/music-videos.json")

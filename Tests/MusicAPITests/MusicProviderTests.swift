@@ -4,25 +4,25 @@ import Combine
 
 final class MusicProviderTests: XCTestCase {
     
-    func test_songs() throws {
+    func test_live_songs() throws {
         try assertRequest(for: .songs, country: .turkey)
     }
     
-    func test_music_videos() throws {
+    func test_live_musicVideos() throws {
         try assertRequest(for: .songs, country: .unitedStates)
     }
     
-    func test_albums() throws {
+    func test_live_albums() throws {
         try assertRequest(for: .albums, country: .unitedKingdom)
     }
     
-    func test_playlists() throws {
+    func test_live_playlists() throws {
         try assertRequest(for: .playlists, country: .ireland)
     }
     
     private func assertRequest(for kind: MediaKind, country: CountryCode, file: StaticString = #file, line: UInt = #line) throws {
         // Given a music provider
-        let provider = MusicProvider.apple()
+        let provider = MusicProvider.live()
         var didFinish: Bool = false
         var error: Error?
         var response: MusicResponse?

@@ -3,7 +3,7 @@ import Combine
 
 public extension MusicProvider {
     
-    static func apple() -> MusicProvider {
+    static func live() -> MusicProvider {
         MusicProvider { request in
             let urlRequest = URLRequest(url: request.url)
             let subject = PassthroughSubject<MusicResponse, Error>()

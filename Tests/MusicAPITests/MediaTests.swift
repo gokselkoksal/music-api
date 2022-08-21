@@ -31,7 +31,7 @@ final class MediaTests: XCTestCase {
         XCTAssertEqual(song.url.absoluteString, "https://music.apple.com/tr/album/ara/1635429603?i=1635429608")
     }
     
-    func test_music_video() throws {
+    func test_musicVideo() throws {
         let musicVideo: Media = try TestResourceLoader.load(from: "music-video")
         
         XCTAssertEqual(musicVideo.id, "1634841222")
