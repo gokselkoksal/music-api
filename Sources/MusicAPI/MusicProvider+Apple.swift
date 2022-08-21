@@ -28,6 +28,7 @@ public extension MusicProvider {
                 }
             }
             return subject
+                .receive(on: DispatchQueue.main)
                 .handleEvents(
                     receiveCancel: { [weak task] in task?.cancel() },
                     receiveRequest: { [weak task] _ in task?.resume() }
