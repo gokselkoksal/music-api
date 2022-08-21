@@ -5,7 +5,7 @@ Simple Music API powered by [Apple's RSS Builder](https://rss.applemarketingtool
 ## Usage
 
 ```swift
-let provider = MusicAPI.apple()
+let provider = MusicAPI.live()
 let request = MusicRequest(country: "tr", kind: .songs, pageSize: .small)
 
 cancellables += provider.getMostPlayedMusic(request).sink { [weak self] completion in
