@@ -1,6 +1,6 @@
-# Sample Music API
+# Apple Music RSS API
 
-Simple music API for sample apps.
+Simple Music API powered by [Apple's RSS Builder](https://rss.applemarketingtools.com/).
 
 ## Usage
 
