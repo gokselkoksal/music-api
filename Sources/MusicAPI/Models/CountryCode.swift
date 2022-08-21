@@ -22,7 +22,8 @@ extension CountryCode: ExpressibleByStringLiteral {
 }
 
 public extension CountryCode {
+    static let turkey: CountryCode = "tr"
+    static let ireland: CountryCode = "ie"
     static let unitedStates: CountryCode = "us"
     static let unitedKingdom: CountryCode = "gb"
-    static let turkey: CountryCode = "tr"
 }
