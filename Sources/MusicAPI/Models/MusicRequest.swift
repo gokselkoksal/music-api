@@ -1,6 +1,6 @@
 import Foundation
 
-public enum MediaKind: String, Decodable {
+public enum MediaKind: String, Decodable, Equatable {
     case albums = "albums"
     case musicVideos = "music-videos"
     case playlists = "playlists"

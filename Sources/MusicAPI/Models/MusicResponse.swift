@@ -1,6 +1,6 @@
 import Foundation
 
-public struct MusicResponse: Decodable {
+public struct MusicResponse: Decodable, Equatable {
     
     private enum RootCodingKeys: String, CodingKey {
         case feed

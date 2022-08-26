@@ -1,6 +1,6 @@
 import Foundation
 
-public struct Media: Decodable {
+public struct Media: Decodable, Equatable {
     
     private enum CodingKeys: String, CodingKey {
         case id
